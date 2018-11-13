@@ -1,0 +1,200 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: #fff;
+}
+
+nav {
+	width: 100%;
+	overflow: auto;
+	text-align: center;
+  position: sticky;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #E15;
+}
+
+.logo img {
+	position: absolute;
+	float: left;
+	margin: 10px 15px 15px 10px;
+
+}
+
+nav .a {
+	width: 100px;
+	display: block;
+	padding: 20px 15px;
+	text-decoration: none;
+
+}
+
+#nav nav li.active a {
+	border-bottom: 5px solid #2D8BD6;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+}
+
+
+.box {
+	background: #fff;
+	width: 46%;
+  padding: 10px;
+  border: 15px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.box:hover {
+    background-color: #ececec75;
+}
+
+.box4 , .box3 , .box2 , .box1 {
+	font-size: 1.3em;
+}
+
+.s-logo {
+  float: left;
+}
+
+.box10 {
+  background: #fff;
+  width: 90%;
+  display: inline-block;
+}
+
+.box10:hover {
+  background-color: #ececec75;
+}
+
+.p1:hover  .p2, .p3, {
+  display: none;
+}
+
+.testimonial {
+  background-color: rgba(44,62,80,0.82);
+}
+
+.testimonial-box {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.testimonial-box span a {
+    width: 250px;
+    height: 80px;
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid transparent;
+}
+
+span {
+  text-align: center;
+      display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.tab-content {
+  display: flex;
+}
+
+p , strong{
+  color: #fff;
+}
+
+.f1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: #696f77;
+  font-weight: 400;
+}
+
+.f2 {
+  font-size: 1.5em;
+  text-align: center;
+  color: #696f77;
+  font-weight: 400;
+}
+
+.f5 {
+  color: #696f77;
+}
+
+input[type=text], input[type=email], input[type=message], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=reset] , input[type=submit] {
+    width: 50%;
+    background-color: #3498DB;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   text-align: center;
+   height: 70px;
+}
+
+p {
+  margin:  10px;
+}
+
+.copyright {
+	padding: 10px;
+	text-align: center;
+}
+.container {
+  display: flex;
+}
+
+.tab-content {
+  de
+}
